@@ -2,6 +2,8 @@
 
 A new Flutter project.
 
+ShellApp 电脑端地址 https://github.com/akl7777777/ShellApp
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
