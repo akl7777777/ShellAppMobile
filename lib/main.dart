@@ -1,5 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:webview_flutter/webview_flutter.dart';
+import 'package:permission_handler/permission_handler.dart';
+
+void requestMicrophonePermission() async {
+  var status = await Permission.microphone.status;
+  if (!status.isGranted) {
+    status = await Permission.microphone.request();
+    if (!status.isGranted) {
+      // The user did not grant the permission.
+    }
+  }
+}
 
 void main() {
   runApp(const MyApp());
