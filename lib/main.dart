@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('WebView Example'),
+          title: Text('Shell App Mobile'),
         ),
         body: WebView(
           initialUrl: 'https://www.example.com', // 你的URL
