@@ -1,4 +1,4 @@
-package com.example.webview_example
+package com.shellgpt.app.mobile
 
 import io.flutter.embedding.android.FlutterActivity
 
